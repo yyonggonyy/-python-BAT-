@@ -34,7 +34,7 @@ import heapq
 import operator
 from collections import Counter
 source_file = 'C:/Users/Administrator/Desktop/most_ip/bigdata.txt'  #原始的海量数据ip
-temp_files = 'C:/Users/Administrator/Desktop/most_ip/temp/'         #把经过hash映射过后的数据存到相应的文件中
+temp_files = 'C:/Users/Administrator/Desktop/most_ip/temp/'         #把经过hash映射过后的数据存到相应的文件中，hash后相同的ip会在一个文件内
 top_1000ip = []                                                     #存放1000个文件的出现频率最高的ip和出现的次数
 def hash_file():
     """
